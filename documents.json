@@ -1,0 +1,52 @@
+[
+    {
+        "intent": "greet_in",
+        "intentions": ["Hi", "Hello", "How are you doing", "Good morning", "Good afternoon", "Good evening", "Hey", "Hey there", "Hey buddy"],
+        "response": "Hello! Welcome to NewGas, How can I help you today?"
+    },
+    {
+        "intent": "farewell",
+        "intentions": ["Goodbye", "Bye", "See you later", "Take care"],
+        "response": "Goodbye! Have a great day ahead."
+    },
+    {
+        "intent": "information_request",
+        "intentions": ["Can you provide information about your products?", "What services do you offer?", "Tell me about your company"],
+        "response": "Sure! We offer a range of products and services tailored to meet your needs. Could you please specify what you're interested in?"
+    },
+    {
+        "intent": "complaint",
+        "intentions": ["I have an issue with your service", "I want to file a complaint", "I'm not satisfied with your product"],
+        "response": "I'm sorry to hear that. Please provide me with more details about the issue, and I'll do my best to assist you in resolving it."
+    },
+    {
+        "intent": "feedback",
+        "intentions": ["I have feedback for your company", "I want to give a suggestion", "I'd like to share my experience"],
+        "response": "Thank you for your feedback! We greatly value input from our customers. Please feel free to share your thoughts, and we'll take them into consideration."
+    },
+    {
+        "intent": "product_inquiry",
+        "intentions": ["What are your latest products?", "Can you tell me about [specific product]?", "Do you offer [specific service]?"],
+        "response": "Certainly! Our latest products include [5kg, 10kg and 20kg] cylinders, and we also offer a range of services such as [specific service]. Would you like more information about any particular product or service?"
+    },
+    {
+        "intent": "pricing_inquiry",
+        "intentions": ["What are your prices?", "How much does [specific product/service] cost?", "Do you offer any discounts?"],
+        "response": "Our prices vary depending on the product or service you're interested in. Could you please specify which product or service you'd like pricing information for?"
+    },
+    {
+        "intent": "order_status",
+        "intentions": ["Where is my order?", "Can you check the status of my order?", "I haven't received my order yet"],
+        "response": "I can help you with that. Please provide me with your order number, and I'll check the status for you."
+    },
+    {
+        "intent": "technical_support",
+        "intentions": ["I'm having technical issues with your product", "Can you assist me with troubleshooting?", "My equipment is not working properly"],
+        "response": "I understand the importance of resolving technical issues promptly. Please describe the problem you're experiencing, and I'll do my best to provide you with assistance."
+    },
+    {
+        "intent": "general_assistance",
+        "intentions": ["I need help", "Can you assist me?", "I'm not sure who to contact"],
+        "response": "Of course! Feel free to ask me anything, and I'll do my best to assist you. If I can't help directly, I'll make sure to connect you with the right department."
+    }
+]
